@@ -10,5 +10,5 @@ map '/assets' do
   run sprockets
 end
 
-require './sam_and_ellen'
-run SamAndEllen
+require './harshit_and_heta'
+run HarshitAndHeta

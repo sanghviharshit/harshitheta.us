@@ -1,6 +1,6 @@
-class SamAndEllen < Sinatra::Base
-  PREFERRED_HOST = 'samandellen.com'.freeze
-  WEDDING_DATE = Date.parse('2013-08-17').freeze
+class HarshitAndHeta < Sinatra::Base
+  PREFERRED_HOST = 'harshitheta.us'.freeze
+  WEDDING_DATE = Date.parse('2013-11-19').freeze
 
   if ENV['RACK_ENV'] == 'production'
     before do

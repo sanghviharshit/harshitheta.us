@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  font-family: 'Gotham A', 'Gotham B';
+  font-family: 'Roboto Slab', serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.4em;
@@ -33,12 +33,12 @@ a {
   color: $link-color;
 }
 
-.s {
-  color: $sam-color;
+.harshit {
+  color: $harshit-color;
 }
 
-.e {
-  color: $ellen-color;
+.heta {
+  color: $heta-color;
 }
 
 h1 {
@@ -46,7 +46,10 @@ h1 {
   text-align: center;
   font-size: 40px;
   color: #999;
-  margin: 2em auto;
+  margin-top: 2em;
+  margin-right: auto;
+  margin-bottom: 1em;
+  margin-left: auto;
   line-height: 1.2em;
 
   @media #{$iphone-query} {
@@ -57,13 +60,17 @@ h1 {
 
 h2 {
   font-weight: 700;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 h3 {
+  /*
   font-family: 'Landmark Dimensional A', 'Landmark Dimensional B';
+  */
   font-weight: 400;
   font-style: normal;
-  color: #ededed;
+  color: #666666;
   text-align: center;
   font-size: 100px;
   margin: 1em auto;
